@@ -3,6 +3,7 @@
     --secondary-color: #FFFFFF;
     --title-color: #212121;
     --accent-color: #2196F3;
+    --color-active-button: #188CE8;
     --primary-background: #FFFFFF;
     --secondary-background: #2F303A;
     --accent-background: #2196F3;
@@ -67,6 +68,10 @@ body {
     color: var(--accent-color);
 }
 
+.logo-nav .current {
+    color: var(--accent-background);
+}
+
 .hero {
     letter-spacing: 0.06em;
     text-align: center;
@@ -94,6 +99,11 @@ body {
     cursor: pointer;
 }
 
+.hero-order:hover,
+.hero-order:focus {
+    color: var(--color-active-button);
+}
+
 .preference-title {
     font-weight: var(--title-weight);
     line-height: 1.1;
@@ -110,7 +120,9 @@ body {
 
 .team {
     font-size: 16px;
-    line-height:
+    line-height: 1.2;
+    background-color: #F5F4FA;
+    text-align: center;
 }
 
 .team-member {
