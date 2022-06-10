@@ -74,6 +74,7 @@ body {
 
 .hero {
     letter-spacing: 0.06em;
+    align-items: center;
     text-align: center;
 }
 
@@ -149,6 +150,7 @@ body {
     line-height: 1.6;
     color: var(--title-color);
     cursor: pointer;
+    text-align: center;
 }
 
 .filter .click:hover,
