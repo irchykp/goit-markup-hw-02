@@ -3,20 +3,19 @@
     --secondary-color: #FFFFFF;
     --title-color: #212121;
     --accent-color: #2196F3;
+    --logo-color: #000000;
+    --background-section: #F5F4FA;
     --background-active-button: #188CE8;
     --primary-background: #FFFFFF;
     --secondary-background: #2F303A;
     --accent-background: #2196F3;
-    --primary-weight: 400;
     --title-weight: 700;
 }
 
 body {
     font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     background-color: var(--primary-background);
     color: var(--primary-color);
 }
@@ -32,13 +31,15 @@ body {
 .examples,
 .team {
     line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: var(--title-weight);
-    color: #000000;
+    color: var(--logo-color);
 }
 
 .logo-accent {
@@ -80,14 +81,14 @@ body {
 
 .hero,
 .logo-contacts {
-    background-color: var(--secondary-background)
+    background-color: var(--secondary-background);
+    color: var(--secondary-color);
 }
 
 .hero-title {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
-    color: var(--secondary-color);
     text-transform: uppercase;
 }
 
@@ -95,7 +96,6 @@ body {
     font-weight: var(--title-weight);
     font-size: 16px;
     line-height: 1.9;
-    color: var(--secondary-color);
     background-color: var(--accent-background);
     cursor: pointer;
 }
@@ -108,6 +108,7 @@ body {
 .preference-title {
     font-weight: var(--title-weight);
     line-height: 1.1;
+    font-size: 18px;
     text-transform: uppercase;
     color: var(--title-color);
 }
@@ -122,7 +123,7 @@ body {
 .team {
     font-size: 16px;
     line-height: 1.2;
-    background-color: #F5F4FA;
+    background-color: var(--background-section);
     text-align: center;
 }
 
@@ -170,4 +171,5 @@ body {
 .project-filter {
     font-size: 16px;
     line-height: 1.9;
+    color: var(--primary-color);
 }
