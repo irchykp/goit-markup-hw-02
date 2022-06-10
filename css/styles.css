@@ -102,7 +102,7 @@ body {
 
 .hero-order:hover,
 .hero-order:focus {
-    color: var(--background-active-button);
+    background-color: var(--background-active-button);
 }
 
 .preference-title {
