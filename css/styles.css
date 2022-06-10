@@ -3,7 +3,7 @@
     --secondary-color: #FFFFFF;
     --title-color: #212121;
     --accent-color: #2196F3;
-    --color-active-button: #188CE8;
+    --background-active-button: #188CE8;
     --primary-background: #FFFFFF;
     --secondary-background: #2F303A;
     --accent-background: #2196F3;
@@ -102,7 +102,7 @@ body {
 
 .hero-order:hover,
 .hero-order:focus {
-    color: var(--color-active-button);
+    color: var(--background-active-button);
 }
 
 .preference-title {
