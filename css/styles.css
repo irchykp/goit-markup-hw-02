@@ -63,8 +63,8 @@ body {
 .contacts .link:hover,
 .navigation .link:focus,
 .contacts .link:focus,
-.logo-contacts .link:hover,
-.logo-contacts .link:focus {
+.contact-info .link:hover,
+.contact-info .link:focus {
     color: var(--accent-color);
 }
 
