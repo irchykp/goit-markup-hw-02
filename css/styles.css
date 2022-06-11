@@ -108,7 +108,7 @@ body {
 .preference-title {
     font-weight: var(--title-weight);
     line-height: 1.1;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     color: var(--title-color);
 }
