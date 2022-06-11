@@ -20,7 +20,7 @@ body {
     color: var(--primary-color);
 }
 
-.logo-nav {
+.logo-nav .link {
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -54,10 +54,8 @@ body {
     text-decoration: none;
 }
 
-.navigation .link,
 .contacts .link {
-    font-weight: 500;
-    color: var(--title-color);
+    color: var(--primary-color);
 }
 
 .navigation .link:hover,
@@ -98,6 +96,7 @@ body {
     line-height: 1.9;
     background-color: var(--accent-background);
     cursor: pointer;
+    color: var(--secondary-color);
 }
 
 .hero-order:hover,
@@ -124,10 +123,10 @@ body {
     font-size: 16px;
     line-height: 1.2;
     background-color: var(--background-section);
-    text-align: center;
 }
 
 .team-member {
+    font-size: 16px;
     font-weight: 500;
     color: var(--title-color);
 }
